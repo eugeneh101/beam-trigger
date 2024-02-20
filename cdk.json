@@ -1,0 +1,15 @@
+{
+    "app": "python3 app.py",
+    "context": {
+        "environment": {
+            "AWS_REGION": "us-east-1",
+            "S3_BUCKET_NAME": "beam-trigger-bucket",
+            "S3_INPUT_PREFIX": "input",
+            "S3_OUTPUT_PREFIX_LAMBDA": "output_lambda",
+            "CREATE_S3_FILE_LAMBDA": "create-s3-file",
+            "CREATE_FILE_EVERY_X_SECONDS": 30,
+            "NUM_LINES_IN_S3_FILE": 1000000,
+            "CALCULATE_METRICS_LAMBDA_NAME": "calculate-metrics"
+        }
+    }
+}

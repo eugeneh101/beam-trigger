@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "calculate-aggregate-metrics-lambda"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "calculate_aggregate_metrics_lambda"}]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+apache-beam = "^2.54.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
